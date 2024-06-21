@@ -268,7 +268,7 @@ header{
     min-height: 50vh;
 }
 
-.employee {
+.container {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
@@ -276,7 +276,7 @@ header{
 }
 
 
-.employee .person  {
+.container .card  {
     margin: 0;
     width: auto;
     text-transform: capitalize;
@@ -312,7 +312,7 @@ header{
  color:#C59D5F;
 }
 
-.employee .person .job {
+.container .card .job {
     font-size: 1rem;
     padding: 0 5em;
     text-align: center;
