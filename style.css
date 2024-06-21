@@ -62,9 +62,9 @@ header{
 }
 
 .image-container {
-    /* position: relative; */
-    min-height: 100vh; /* ou autre hauteur que vous souhaitez */
-    /* width: 100%; */
+   
+    min-height: 100vh; 
+   
 }
 
 .home-image {
@@ -76,8 +76,6 @@ header{
     min-height: 100%;
     width: 100%;
     position: absolute;
-    /* top: 0;
-    left: 0; */
     z-index: -1;
 }
 
@@ -152,7 +150,6 @@ header{
 }
 
 .content button:hover{
-    /* border: 1px solid #0000; */
     color: #f9ae3e;
     background-color: #000;
    
@@ -197,13 +194,12 @@ header{
     overflow: hidden;
     width: 100%;
     height: 98%;
-    /* transition: 02s linear; */
+  
     transition: all 1s ease-out;
 }
 
 .img:hover{
     background-color: rgba(197, 156, 95, 0.532);
-    /* transition: 02s linear; */
     transition: all 1s ease-out;
 }
 
@@ -223,7 +219,7 @@ header{
 .img {
     position: relative;
     overflow: hidden;
-    /* width: 100%; */
+   
     height: 100%;
     transition: 1s ease-out;
     cursor: pointer;
@@ -234,7 +230,6 @@ header{
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
-    /* color: #fff; */
     opacity: 0;
     transition: 1s ease-out;
     font-size: 100px;
@@ -375,55 +370,8 @@ footer {
     height: 200px;
 }
 
-footer .socials-icon {
-    display: flex;
-    width: -moz-max-content;
-    width: max-content;
-}
 
-footer .socials-icon .icon {
-    width: 40px;
-    height: 40px;
-    margin: 0 20px;
-    border: 2px solid #5F6064;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    transition: var(--trans-02s-linear);
-}
-footer .socials-icon .icon i {
-    color: #5F6064;
-    transition: var(--trans-02s-linear);
-}
-footer .socials-icon .icon:hover {
-    transition: var(--trans-02s-linear);
-    border-color: var(--clr-white);
-}
-footer .socials-icon .icon:hover i {
-    color: var(--clr-white);
-}
-footer .policy {
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-}
-footer .policy .separator {
-    margin: 0 20px;
-    color: #5F6064;
-}
-footer .policy a {
-    text-decoration: none;
-    color: #5F6064;
-    transition: var(--trans-02s-linear);
-}
-footer .policy a:hover {
-    transition: var(--trans-02s-linear);
-    color: var(--clr-white);
-}
-
-  footer .copyright {
+footer .copyright {
     margin-top: 20px;
     color: #5F6064;
 }
